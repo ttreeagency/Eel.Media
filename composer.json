@@ -1,0 +1,19 @@
+{
+    "description": "A basic EEL helper to generate image URI",
+    "type": "neos-package",
+    "name": "ttree/eel-media",
+    "license": "MIT",
+    "require": {
+        "neos/eel": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ttree\\Eel\\Media\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Ttree.Eel.Media"
+        }
+    }
+}

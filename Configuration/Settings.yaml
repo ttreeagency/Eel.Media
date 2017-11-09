@@ -1,0 +1,4 @@
+Neos:
+  Fusion:
+    defaultContext:
+      Ttree.Media: 'Ttree\Eel\Media\MediaHelper'
