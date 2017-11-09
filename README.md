@@ -1,9 +1,13 @@
 # A basic EEL helper to generate image URI
 
-Generate square cropped image:
+Generate cropped image:
 
-	${Ttree.Media.image(image, null, 100, null, 100, true)}
+	${Ttree.Media.imageUri(image, null, 100, null, 100, true)}
 	
+
+Generate cropped square image:
+
+	${Ttree.Media.imageUri(image, 100, null, 100, null, true)}
 
 ## Acknowledgments
 

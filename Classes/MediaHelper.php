@@ -9,9 +9,6 @@ use Neos\Media\Domain\Model\Image;
 use Neos\Media\Domain\Model\ThumbnailConfiguration;
 use Neos\Media\Domain\Service\AssetService;
 
-/**
- * @Flow\Proxy(false)
- */
 class MediaHelper implements ProtectedContextAwareInterface
 {
     /**
